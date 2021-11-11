@@ -10,7 +10,7 @@ $("#login-button").click(function (event) {
   var userName = document.getElementById("userName").value;
   var pwd = document.getElementById("pwd").value;
   //修改密码请改此处
-  if (userName == "苏佳凡" && pwd == "520") {
+  if (userName == "大白兔几" && pwd == "520") {
     event.preventDefault();
     $("form").fadeOut(500);
     $(".wrapper").addClass("form-success");
